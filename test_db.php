@@ -1,4 +1,7 @@
 <?php
+
+/*
+
 require_once 'config/config.php';
 
 try {
@@ -9,4 +12,6 @@ try {
 } catch(PDOException $e) {
     die("ERROR: Could not connect. " . $e->getMessage());
 }
+
+*/
 ?>

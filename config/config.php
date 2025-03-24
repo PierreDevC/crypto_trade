@@ -1,17 +1,23 @@
 <?php
 
-define('DB_HOST', 'localhost'); // Désigner le host -> Localhost
-define('DB_USER', 'root');      // Désigner le username dans XAMPP (par défaut -> root )
-define('DB_PASS', '');          // Vide par défaut sur XAMPP
-define('DB_NAME', 'crypto_trade'); // Nom de la base de données (crypto_trade)
+namespace App\Config;
 
-// Reporter les erreur de développement
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+class Config
+{
+    // Database configuration
+    public const DB_HOST = 'localhost';
+    public const DB_USER = 'root';
+    public const DB_PASS = '';
+    public const DB_NAME = 'crypto_trade';
 
-// Url de base l'application
-$base_url = 'http://localhost/crypto_trade/public/';
-define('BASE_URL', $base_url);
+    // Base URL configuration
+    public const BASE_URL = 'http://localhost/crypto_trade/public/';
 
-?>
+    // Error reporting configuration
+    public static function initErrorReporting(): void
+    {
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
+    }
+}
