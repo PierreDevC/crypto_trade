@@ -9,10 +9,11 @@ use DateTime;
 use PDO;
 use PDOException;
 use App\Config\Config; // Importer la classe de configuration 
-// require_once __DIR__ . '/../config/Config.php';   // référence à la connexion de la base de données
 
 
-class User {
+
+class User 
+{
     /*************** Propriétés ***************/
     private int $id;
     private string $username;
@@ -25,7 +26,8 @@ class User {
     private DateTime $created_at;
     private DateTime $updated_at;
     private ?DateTime $deleted_at; // soft-delete
-    private PDO $db;
+     
+    private PDO $db; // connexion de la base de données
 
 
     /*************** Constructeur ***************/
