@@ -2,7 +2,7 @@
 namespace App\Models;
 /**
  * Développeur assigné(s) : Pierre
- * Entité : Classe User de la couche Models
+ * Entité : Classe 'User' de la couche Models
  */
 
 use DateTime;
@@ -55,7 +55,7 @@ class User
     public function getDeletedAt() : ?DateTime {return $this->deleted_at;}
 
 
-    /*************** Les setters ***************/
+    /*************** Setters ***************/
     public function setUsername(string $username) : void 
     {
         $this->username = $username;
@@ -65,8 +65,6 @@ class User
     {
         $this->email = $email;
     }
-
-    /*************** Méthodes ***************/
 
     /**
      * Fonction qui set le mot de passe et le hash avant de le mettre dans la base données
@@ -78,6 +76,7 @@ class User
         $this->password = password_hash($password, PASSWORD_DEFAULT);
     }
 
+    /*************** Méthodes ***************/
     /**
      * Fonction qui vérifie si le mot de passe entré à celui qui est hashé
      * @param string $password Le mot de passe à vérifier

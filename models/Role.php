@@ -30,7 +30,9 @@ class Role
         }
     }
 
-        /**
+    /*************** Méthodes ***************/
+
+    /**
      * Fonction qui ajoute un role dans la base de données
      * @return bool
      */
