@@ -25,7 +25,7 @@ class User
     private ?int $role;
     private DateTime $created_at;
     private DateTime $updated_at;
-    private ?DateTime $deleted_at; // soft-delete
+    private ?DateTime $deleted_at; // soft-delete : est null si le compte n'est pas effacé
      
     private PDO $db; // connexion de la base de données
 
@@ -42,7 +42,7 @@ class User
     }
 
     
-    /*************** Les getters ***************/
+    /*************** Getters ***************/
     public function getId() : int {return $this->id;}
     public function getUsername() : string { return $this->username;}
     public function getEmail() : string {return $this->email;}
