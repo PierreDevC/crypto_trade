@@ -1,8 +1,8 @@
 <?php
 namespace App\Models;
 /**
- * Développeur assigné(s) : Moses
- * Entité : Classe 'Currency' de la couche Models
+ * Développeur assigné(s) : Pierre
+ * Entité : Classe 'Currency' de la couche 'Models'
  */
 
 use PDO;
