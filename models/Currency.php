@@ -16,7 +16,7 @@ class Currency
     public string $name;
     private string $symbol;
     private float $initial_price;
-    private string $volatility; // low, medium or high (on utilise pas d'enum)
+    private string $volatility; // low, medium or high (on utilise pas d'enum) -> validation dans ValidationService
 
     private PDO $db;
 
@@ -41,7 +41,7 @@ class Currency
 
     /*************** Setters ***************/
     public function setName(string $name): void {$this->name = $name;}
-    public function setSymbol(string $symbol): void{$this->symbol = $symbol;}
+    public function setSymbol(string $symbol): void {$this->symbol = $symbol;}
     public function setInitialPrice(float $initialPrice): void {$this->initial_price = $initialPrice;}
     public function setVolatility(string $volatility): void {$this->volatility = $volatility;}
 
