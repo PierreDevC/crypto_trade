@@ -2,7 +2,7 @@
 namespace App\Models;
 /**
  * Développeur assigné(s) : Pierre
- * Entité : Classe 'User' de la couche Models
+ * Entité : Classe 'User' de la couche 'Models'
  */
 
 use DateTime;
