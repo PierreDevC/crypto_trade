@@ -253,5 +253,17 @@ class User
         $user = $stmt->fetch();
         return $user ? $this : null;
     }
+
+
+    /**
+     * Fonction qui trouve tous les utilisateurs dans la base de données
+     * @return array Un array avec tous les utilisateurs
+     */
+    public function findAll(): array 
+    {
+        $stmt = $this->db->prepare("SELECT * FROM users WHERE deleted_at IS NULL");
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_CLASS, User::class);
+    }
 }
 ?>

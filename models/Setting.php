@@ -2,7 +2,7 @@
 namespace App\Models;
 
 /**
- * Développeur assigné(s) : Pierre
+ * Développeur assigné(s) : Moses
  * Entité : Classe 'User' de la couche Models
  */
 
