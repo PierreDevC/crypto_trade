@@ -150,7 +150,7 @@ class ValidationService
         return strlen($password) >= 8 && // au moins 8 caractères
         preg_match('/[A-Z]/', $password) && // une majuscule
         preg_match('/[a-z]/', $password) && // une minuscule
-        preg_match('//', $password); // nombres
+        preg_match('/[0-9]/', $password); // nombres
     }
 
     /**
