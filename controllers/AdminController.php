@@ -62,5 +62,6 @@ class AdminController
      * Liste des logs système
      */
     
-    }
 }
+
+?>
