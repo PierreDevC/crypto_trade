@@ -4,3 +4,5 @@ RewriteBase /crypto_trade/public/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+
+php_flag display_errors off

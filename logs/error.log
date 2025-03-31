@@ -1,0 +1,39 @@
+[31-Mar-2025 05:20:23 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 39
+[31-Mar-2025 05:20:23 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 40
+[31-Mar-2025 05:20:23 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 41
+[31-Mar-2025 05:20:23 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 39
+[31-Mar-2025 05:20:23 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 40
+[31-Mar-2025 05:20:23 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 41
+[31-Mar-2025 05:20:24 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 39
+[31-Mar-2025 05:20:24 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 40
+[31-Mar-2025 05:20:24 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 41
+[31-Mar-2025 05:21:15 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 45
+[31-Mar-2025 05:21:15 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 46
+[31-Mar-2025 05:21:15 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 47
+[31-Mar-2025 05:21:15 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 45
+[31-Mar-2025 05:21:15 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 46
+[31-Mar-2025 05:21:15 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\crypto_trade\config\config.php on line 47
+[31-Mar-2025 05:30:51 Europe/Berlin] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:30:51 Europe/Berlin] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:30:51 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:30:51 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:32:44 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:32:44 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:32:44 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:32:44 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:32:45 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:32:45 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:32:45 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:32:45 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:32:45 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:32:45 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:32:45 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:32:45 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:33:08 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:33:08 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:33:08 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:33:08 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:35:00 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:35:00 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
+[31-Mar-2025 05:35:00 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[31-Mar-2025 05:35:00 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
