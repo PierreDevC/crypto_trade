@@ -76,6 +76,16 @@ class User
         $this->password = password_hash($password, PASSWORD_DEFAULT);
     }
 
+    public function setBalance(float $balance): void
+{
+    $this->balance = $balance;
+}
+
+    public function setRegistrationToken(string $token): void
+{
+    $this->registration_token = $token;
+}
+
     /*************** Méthodes ***************/
     /**
      * Fonction qui vérifie si le mot de passe entré à celui qui est hashé
