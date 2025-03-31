@@ -5,7 +5,7 @@ include $root . '/crypto_trade/views/partials/header.php';
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!--En tete -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CryptoTrade - Your Premium Trading Platform</title>
