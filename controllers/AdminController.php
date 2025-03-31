@@ -6,6 +6,7 @@ namespace App\Controllers;
  * Développeur assigné(s) : Seydina
  * Entité : Classe 'AdminController' de la couche Controller
  */
+// helloddd
 
  use App\Models\Admin;
  use App\Models\User;
