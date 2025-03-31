@@ -14,7 +14,7 @@ include $root . '/crypto_trade/views/partials/header.php';
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
-    <link href="style.css" rel="stylesheet">
+    <link href="/crypto_trade/public/css/style.css" rel="stylesheet">
 </head>
 <body class="bg-black text-white">
         <!-- Hero Section -->
