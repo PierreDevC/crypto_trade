@@ -29,7 +29,7 @@
                             <a class="nav-link" href="/crypto_trade">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/crypto_trade/crypto">Crypto-monnaies</a>
+                            <a class="nav-link" href="<?php echo BASE_URL; ?>/#crypto-table">Cryptomonnaies</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/crypto_trade/about">À propos</a>
@@ -37,7 +37,7 @@
                     </ul>
                     <div class="d-flex">
                         <a href="/crypto_trade/login" class="btn btn-link text-white text-decoration-none">Se connecter</a>
-                        <a href="/crypto_trade/register" class="btn btn-primary ms-3">Commencer gratuitement</a>
+                        <a href="<?php echo BASE_URL; ?>/register" class="btn btn-primary ms-3">Commencer gratuitement</a>
                     </div>
                 </div>
             </div>

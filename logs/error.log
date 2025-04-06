@@ -37,3 +37,55 @@
 [31-Mar-2025 05:35:00 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 1
 [31-Mar-2025 05:35:00 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
 [31-Mar-2025 05:35:00 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 174
+[01-Apr-2025 17:23:48 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:23:48 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:23:48 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:23:48 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:23:55 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:23:55 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:23:55 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:23:55 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:24:02 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:24:02 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:24:02 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:24:02 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:25:16 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:25:16 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:25:16 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:25:16 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:28:25 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:28:25 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:28:25 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:28:25 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:28:27 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:28:27 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:28:27 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:28:27 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:28:38 Europe/Berlin] PHP Warning:  include(../partials/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:28:38 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 3
+[01-Apr-2025 17:28:38 Europe/Berlin] PHP Warning:  include(../partials/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:28:38 Europe/Berlin] PHP Warning:  include(): Failed opening '../partials/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\views\auth\register.php on line 75
+[01-Apr-2025 17:41:50 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\crypto_trade/views/layout/about.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\index.php on line 35
+[01-Apr-2025 17:41:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\crypto_trade/views/layout/about.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\index.php:35
+Stack trace:
+#0 C:\xampp\htdocs\crypto_trade\index.php(53): route('/about')
+#1 {main}
+  thrown in C:\xampp\htdocs\crypto_trade\index.php on line 35
+[01-Apr-2025 17:45:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\crypto_trade\views\layout\main.php:29
+Stack trace:
+#0 C:\xampp\htdocs\crypto_trade\index.php(23): require_once()
+#1 C:\xampp\htdocs\crypto_trade\index.php(53): route('/')
+#2 {main}
+  thrown in C:\xampp\htdocs\crypto_trade\views\layout\main.php on line 29
+[01-Apr-2025 17:55:01 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\crypto_trade/views/layout/about.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\index.php on line 35
+[01-Apr-2025 17:55:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\crypto_trade/views/layout/about.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\index.php:35
+Stack trace:
+#0 C:\xampp\htdocs\crypto_trade\index.php(53): route('/about')
+#1 {main}
+  thrown in C:\xampp\htdocs\crypto_trade\index.php on line 35
+[06-Apr-2025 02:33:00 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\crypto_trade/views/layout/about.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\crypto_trade\index.php on line 35
+[06-Apr-2025 02:33:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\crypto_trade/views/layout/about.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\crypto_trade\index.php:35
+Stack trace:
+#0 C:\xampp\htdocs\crypto_trade\index.php(53): route('/about')
+#1 {main}
+  thrown in C:\xampp\htdocs\crypto_trade\index.php on line 35

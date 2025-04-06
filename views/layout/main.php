@@ -22,15 +22,12 @@ include $root . '/crypto_trade/views/partials/header.php';
             <div class="container text-center py-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <h1 class="display-3 fw-bold mb-4">Simulez vos investissements en crypto-monnaies</h1>
-                        <p class="lead mb-4">Découvrez le monde des crypto-monnaies sans risque financier. Suivez les  en temps réel, achetez et vendez virtuellement, et affinez vos stratégies d'investissement.</p>
+                        <h1 class="display-3 fw-bold mb-4">Simulez vos investissements en cryptomonnaies</h1>
+                        <p class="lead mb-4">Découvrez le monde des cryptomonnaies sans risque financier. Suivez les cours en temps réel, achetez et vendez virtuellement, et affinez vos stratégies d'investissement.</p>
                         <div class="d-flex justify-content-center gap-3">
-                            <button class="btn btn-primary button-85">
-                                <i class="fas fa-rocket me-2 "></i>Commencer gratuitement
-                            </button>
-                            <button class="btn btn-outline-light">
-                                <i class="fas fa-book me-2"></i>Se connecter
-                            </button>
+                            <a href="<?php echo BASE_URL; ?>/register" class="btn btn-primary button-85">
+                                <i class="fas fa-rocket me-2"></i>Commencer gratuitement
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -67,9 +64,9 @@ include $root . '/crypto_trade/views/partials/header.php';
         </section>
 
         <!-- Crypto Table Section -->
-        <section class="crypto-table py-5">
+        <section id="crypto-table" class="crypto-table py-5">
             <div class="container">
-                <h2 class="text-center mb-4">Crypto-monnaies les plus populaires</h2>
+                <h2 class="text-center mb-4">Cryptomonnaies les plus populaires</h2>
                 <div class="table-responsive">
                     <table class="table table-dark table-hover">
                         <thead>
