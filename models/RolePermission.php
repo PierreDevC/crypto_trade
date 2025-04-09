@@ -1,7 +1,7 @@
 <?php
 namespace App\Models;
 /**
- * Développeur assigné(s) : Pierre
+ * Développeur assigné(s) : Seydina
  * Entité : Classe 'RolePermission' de la couche Models
  */
 
