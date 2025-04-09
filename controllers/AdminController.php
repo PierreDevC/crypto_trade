@@ -31,11 +31,11 @@ class AdminController
 
     public function __construct()
     {
-        // S'assurer que seuls les admins connectés peuvent accéder à ces actions
+        // il assure que seuls les admins connectés peuvent accéder à ces actions
         $this->authService = new AuthService();
         $loggedInAdmin = $this->authService->getCurrentAdmin();
         if (!$loggedInAdmin) {
-            header('Location: /admin/login'); // Rediriger à la page de connexion admin si non connecté
+            header('Location: /admin/login'); // Redirige à la page de connexion admin si non connecté
             exit(); 
         }
 
