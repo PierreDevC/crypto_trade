@@ -1,89 +1,91 @@
 <?php
 namespace App\Controllers;
 /** 
- * Developpeur assigner Aboubacar 
- * Entite: Class MarketController de la couche controller
-*/
+ * Développeur assigne : Aboubacar 
+ * Entité : Classe MarketController de la couche controller
+ */
 
 use App\Models\Currency;
 use App\Models\PriceHistory;
+use Exception;
 
-class MarketController {
-    private $currencyModel;
-    private $priceHistoryModel;
+class MarketController
+{
+    private Currency $currencyModel;
+    private PriceHistory $priceHistoryModel;
+    private array $request;
+    private $response;
 
-
-    public function __construct()
+    public function __construct(array $request = [])
     {
-        $this -> currencyModel = new CurrencyController();
-        $this -> priceHistoryModel = new PriceHistory();
-
+        $this->currencyModel = new Currency(); 
+        $this->priceHistoryModel = new PriceHistory();
+        $this->request = $request;
     }
 
-    public function getRealTimePrices()
+    /**
+     * Recuperation des prix en temps reel des cryptomonnaies
+     */
+    public function getRealTimePrices(): string
     {
-        // trycatch
-        // je vais prendre toutes les currency avec la function findAll
-        // je vais utiliser une function qui genere les prix 
-        // je vais retourne le prix en temps reel
-        // retourner JSON
-
-
         try {
-            // Recuperaton de toutes les devises
             $currencies = $this->currencyModel->findAll();
 
-            // Genereration d'un prix aleatoire pour simuler le prix en temps reel
+            // Simuler les prix en temps réel
             $realTimePrices = [];
 
             foreach ($currencies as $currency) {
                 $realTimePrices[] = [
-                    'id' => $currency['id'],
-                    'name' => $currency['name'],
-                    'symbol' => $currency['symbol'],
-                    'real_time_price' => $this->generateRandomPrice()
+                    'id' => $currency->getId(),
+                    'name' => $currency->getName(),
+                    'symbol' => $currency->getSymbol(),
+                    'price' => $this->generatePrice($currency->getId())
                 ];
             }
 
-            // Retourner les prix en JSON
-            header('Content-Type: application/json');
-            echo json_encode(['success' => true, 'data' => $realTimePrices]);
+            return json_encode([
+                'status' => 'success',
+                'data' => $realTimePrices
+            ]);
 
-        } catch (\Exception $e) {
-            echo json_encode(['success' => false, 'error' => $e->getMessage()]);
+        } catch (Exception $e) {
+            return json_encode([
+                'status' => 'error',
+                'message' => $e->getMessage()
+            ]);
         }
-
     }
 
-    public function getPriceHistory($currencyId, $period)
+    /**
+     * Recuperation de l'historique des prix d'une cryptomonnaie
+     */
+    public function getPriceHistory(int $currencyId, string $period): string
     {
-        // trycatch
-        // je veux prendre les donnees d'historique
-        // je vais envoye une reponse (succes ou echec)
-        // retourner JSON
-
         try {
-            // Recupereration des donnees historique pour une devise specifique
-            $history = $this->priceHistoryModel->getHistoryByCurrency($currencyId, $period);
+            
+            $history = $this->priceHistoryModel->findByCurrencyId($currencyId, 100);
 
-            // Retour des donnees en JSON
-            header('Content-Type: application/json');
-            echo json_encode(['success' => true, 'data' => $history]);
+            return json_encode([
+                'status' => 'success',
+                'currency_id' => $currencyId,
+                'period' => $period,
+                'data' => $history
+            ]);
 
-        } catch (\Exception $e) {
-            echo json_encode(['success' => false, 'error' => $e->getMessage()]);
+        } catch (Exception $e) {
+            return json_encode([
+                'status' => 'error',
+                'message' => $e->getMessage()
+            ]);
         }
     }
 
-    // Fonction pour generer un prix aleatoire simuler
-    private function generateRandomPrice()
+    /**
+     * un prix fictif en temps reel
+     */
+    private function generatePrice(int $currencyId): float
     {
-        return round(mt_rand(1000, 50000) / 100, 2); // exemple : entre 10.00 et 500.00
+        return round(mt_rand(100, 5000) / 100, 2); // prix entre 1.00 et 50.00
     }
-
-    
-    }
-
-
-
+}
 ?>
