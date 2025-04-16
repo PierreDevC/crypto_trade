@@ -12,31 +12,45 @@ require_once ROOT_PATH . '/config/config.php';
 // Démarrage de la session après la configuration
 session_start();
 
-// Test de la configuration des erreurs
-$undefined_variable; // Cette ligne générera une erreur
-
 // Fonction de routage simple
-function route($path) {
+function route($path)
+{
     switch ($path) {
         case '/':
         case '':
             require_once ROOT_PATH . '/views/layout/main.php';
             break;
-            
+
         case '/login':
             require_once ROOT_PATH . '/views/auth/login.php';
             break;
-            
+
         case '/register':
             require_once ROOT_PATH . '/views/auth/register.php';
             break;
-            
+
         case '/about':
             require_once ROOT_PATH . '/views/layout/about.php';
             break;
-            
+
+        case '/market':
+            $controller = new \App\Controllers\MarketController();
+            $controller->index();
+            break;
+
+        case '/market/prices':
+            $controller = new \App\Controllers\MarketController();
+            echo $controller->getRealTimePrices();
+            break;
+
+        case (preg_match('#^/market/history/(\d+)/(daily|weekly|monthly)$#', $path, $matches) ? true : false):
+            $controller = new \App\Controllers\MarketController();
+            $currencyId = (int) $matches[1];
+            $period = $matches[2];
+            echo $controller->getPriceHistory($currencyId, $period);
+            break;
+
         default:
-            // Page 404
             header("HTTP/1.0 404 Not Found");
             require_once ROOT_PATH . '/views/errors/404.php';
             break;
@@ -47,7 +61,7 @@ function route($path) {
 $request_uri = $_SERVER['REQUEST_URI'];
 $base_path = str_replace('/index.php', '', $_SERVER['SCRIPT_NAME']);
 $path = str_replace($base_path, '', $request_uri);
-$path = strtok($path, '?'); // Supprime les paramètres de requête
+$path = strtok($path, '?'); // Supprime les paramètres GET
 
-// Routage de la requête
+// Appel de la fonction de routage
 route($path);
